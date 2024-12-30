@@ -2,10 +2,9 @@
 
 interface ImportMetaEnv {
   readonly DEV: boolean;
-  readonly VITE_APP_HOMEPAGE: string;
-  readonly VITE_APP_NAME: string;
-  readonly VITE_APP_VERSION: string;
-  readonly VITE_GOOGLE_ANALYTICS_ID: string;
+  readonly VITE_FORGE_CLIENT_ID: string;
+  readonly VITE_FORGE_CLIENT_SECRET: string;
+  readonly VITE_FORGE_STASH_SPACE_ID: string;
 }
 
 interface ImportMeta {

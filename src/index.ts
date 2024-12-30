@@ -9,8 +9,6 @@ new Phaser.Game({
   width: 800, // 1024
   height: 600, // 768
   title: 'Phaser Loot',
-  url: import.meta.env.VITE_APP_HOMEPAGE,
-  version: import.meta.env.VITE_APP_VERSION,
   scene: [
     scenes.Boot,
     ...Object.values(scenes).filter((scene) => scene !== scenes.Boot),
