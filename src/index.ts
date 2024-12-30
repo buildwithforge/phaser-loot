@@ -2,12 +2,9 @@ import Phaser from 'phaser';
 
 import * as scenes from './scenes';
 
-/**
- * https://rexrainbow.github.io/phaser3-rex-notes/docs/site/game/
- */
 new Phaser.Game({
-  width: 800, // 1024
-  height: 600, // 768
+  width: 800,
+  height: 600,
   title: 'Phaser Loot',
   scene: [
     scenes.Boot,

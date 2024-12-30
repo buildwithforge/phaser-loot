@@ -1,16 +1,11 @@
-const image = {
-  dude: 'dude',
-  ground: 'ground',
-  sky: 'sky',
-  star: 'star',
-} as const;
+export enum Image {
+  Dude = 'dude',
+  Ground = 'ground',
+  Sky = 'sky',
+  Star = 'star',
+}
 
-const scene = {
-  boot: 'boot',
-  main: 'main',
-} as const;
-
-export const key = {
-  image,
-  scene,
-} as const;
+export enum Scene {
+  Boot = 'boot',
+  Main = 'main',
+}
