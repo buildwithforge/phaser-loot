@@ -4,10 +4,9 @@
 
 # Phaser Loot
 
-![release](https://img.shields.io/github/v/release/buildwithforge/phaser-loot)
 [![build](https://github.com/buildwithforge/phaser-loot/actions/workflows/build.yml/badge.svg)](https://github.com/buildwithforge/phaser-loot/actions/workflows/build.yml)
 
-Phaser Loot demo with Forge.
+Phaser Loot demo built with [Forge](https://forgegames.org/).
 
 Inspired by the tutorial "[Making your first Phaser 3 game](https://phaser.io/tutorials/making-your-first-phaser-3-game)".
 
